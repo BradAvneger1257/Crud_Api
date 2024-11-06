@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Alumno</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="post.html">Registrar Alumno</a>
+            <a href="update.html">Actualizar Alumno</a>
+            <a href="delete.html">Eliminar Alumno</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Registrar Alumno</h1>
+        <form id="addAlumnoForm" onsubmit="addAlumno(); return false;">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" required>
+            <label for="carrera">Carrera:</label>
+            <input type="text" id="carrera" required>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" required>
+            <button type="submit">Registrar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Derechos reservados © BRADLEY MORALES ARELLANO</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
