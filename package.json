@@ -1,0 +1,27 @@
+{
+  "name": "apivisual",
+  "version": "1.0.0",
+  "description": "API con Node Js",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "dev":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradAvneger1257/Crud_Api.git"
+  },
+  "keywords": [],
+  "author": "Bradley Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BradAvneger1257/Crud_Api/issues"
+  },
+  "homepage": "https://github.com/BradAvneger1257/Crud_Api#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
