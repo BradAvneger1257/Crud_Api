@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="pokeball.jpg" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <h1>Explorador de Pokémon</h1>
+
+        <div class="search">
+            <input type="text" id="pokemonInput" placeholder="Buscar Pokémon por nombre o ID">
+            <button onclick="getPokemon()">Buscar</button>
+        </div>
+
+        <div id="pokemonInfo" class="pokemon-info">
+            <!-- Aquí se mostrará la información del Pokémon -->
+        </div>
+
+        <div class="generationSearch">
+            <label for="generation">Seleccionar Generación:</label>
+            <select id="generation" onchange="listGenerationPokemons()">
+                <option value="1">Generación 1</option>
+                <option value="2">Generación 2</option>
+                <option value="3">Generación 3</option>
+                <option value="4">Generación 4</option>
+                <option value="5">Generación 5</option>
+                <option value="6">Generación 6</option>
+                <option value="7">Generación 7</option>
+                <option value="8">Generación 8</option>
+                <option value="9">Generación 9</option>
+            </select>
+        </div>
+
+        <div id="generationPokemons" class="pokemon-list">
+            <!-- Aquí se mostrarán los Pokémon de la generación seleccionada -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
